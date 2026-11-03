@@ -1,0 +1,11 @@
+# Versions used for the paper (Google Colab): Python 3.13, scikit-learn 1.6.1, XGBoost 3.4.1, TensorFlow 2.21
+numpy
+pandas
+scipy
+matplotlib
+h5py
+scikit-learn==1.6.1
+xgboost==3.4.1
+tensorflow==2.21.*
+# optional: only for saving pictures of the dashboard (Part G2)
+# playwright

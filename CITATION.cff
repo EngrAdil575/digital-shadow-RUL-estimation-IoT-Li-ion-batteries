@@ -1,0 +1,50 @@
+cff-version: 1.2.0
+# Status: manuscript submitted to ACM Transactions on Internet of Things (ACM TIoT), under review. Not yet published.
+message: "If you use this repository, please cite the manuscript below (submitted to ACM Transactions on Internet of Things, under review) and the two datasets (Saha and Goebel, 2007; Severson, Attia, et al., 2019)."
+title: "AI-Driven Digital Shadow for Health Monitoring and Remaining Useful Life Estimation of IoT-Connected Li-Ion Batteries"
+type: software
+authors:
+  - family-names: Wais
+    given-names: Muhammad Waiz
+    affiliation: "Riphah International University, Pakistan"
+  - family-names: Mangal
+    given-names: Roya
+    affiliation: "Riphah International University, Pakistan"
+  - family-names: Orakzai
+    given-names: Muhammad Sadiq
+    affiliation: "Riphah International University, Pakistan"
+  - family-names: Zohaib
+    given-names: Adil
+    affiliation: "Riphah International University, Pakistan"
+  - family-names: Sheh Zad
+    given-names: Haris
+    affiliation: "Pak-Austria Fachhochschule: Institute of Applied Sciences and Technology, Pakistan"
+  - family-names: Khalid
+    given-names: Sohail
+    affiliation: "University of Management and Technology, Pakistan"
+year: 2026
+license: MIT
+references:
+  - type: data
+    title: "Battery Data Set"
+    authors:
+      - family-names: Saha
+        given-names: B.
+      - family-names: Goebel
+        given-names: K.
+    publisher:
+      name: "NASA Prognostics Data Repository, NASA Ames Research Center (PCoE)"
+    year: 2007
+    notes: "U.S. Government work, public domain."
+  - type: data
+    title: "Data-driven prediction of battery cycle life before capacity degradation"
+    authors:
+      - family-names: Severson
+        given-names: K. A.
+      - family-names: Attia
+        given-names: P. M.
+    journal: "Nature Energy"
+    volume: 4
+    year: 2019
+    doi: "10.1038/s41560-019-0356-8"
+    notes: "MIT-Stanford-Toyota LFP dataset, available at https://data.matr.io/1/"

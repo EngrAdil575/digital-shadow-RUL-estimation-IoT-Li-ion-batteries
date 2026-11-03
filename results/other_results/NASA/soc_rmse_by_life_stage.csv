@@ -1,0 +1,5 @@
+,First third of life,Last third of life
+"Charge counting, fixed capacity",4.111741634284056,16.333226070658966
+Charge counting + twin SOH,1.0684122805307879,2.227737641437738
+Tuned XGBoost from voltage,6.361793884060569,10.989442266114828
+Tuned XGBoost from voltage + twin SOH,3.3043098459777798,7.67042681975675
