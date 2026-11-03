@@ -2,8 +2,8 @@
 
 Code, output files, and the replay dashboard for the manuscript:
 
-> **AI-Driven Digital Shadow for Health Monitoring & Remaining Useful Life Estimation of IoT-Connected Li-Ion Batteries**
-> Muhammad Waiz Wais, Roya Mangal, Muhammad Sadiq Orakzai, Adil Zohaib, Haris Sheh Zad, Sohail Khalid.
+> **AI-Driven Digital Shadow for Health Monitoring and Remaining Useful Life Estimation of IoT-Connected Li-Ion Batteries**
+> Muhammad Waiz Wais, Roya Mangal, Muhammad Sadiq Orakzai, Adil Zohaib, Haris Sheh Zad and Sohail Khalid.
 
 **Status:** This repository accompanies a manuscript submitted to ACM Transactions on Internet of Things (ACM TIoT). The manuscript is not yet published. This repository is the supporting material for the submitted version.
 
@@ -11,7 +11,7 @@ This repository is the reproducibility record for the manuscript. It holds the f
 
 ## What the paper does
 
-The work evaluates a charging-based digital-shadow architecture for IoT battery monitoring that uses four or five features per charging cycle, the kind of summary a low-power sensor node can send once per cycle. From those features it estimates the state of health (SOH), remaining useful life (RUL), and state of charge (SOC) of lithium-ion cells. Five models (ridge regression, random forest, tuned XGBoost, LSTM, and a CNN-LSTM) are compared on four NASA cells and 124 lithium iron phosphate (LFP) cells, with each test cell excluded from fitting and tuning. RUL prediction intervals are calibrated with conformal bands, tolerance to sensor faults is tested with feature noise and glitches, and a replay dashboard presents the estimates. The evaluation uses retrospective preprocessing and does not demonstrate a hardware or closed-loop deployment.
+The research work evaluates a charging-based digital-shadow architecture for IoT battery monitoring that uses four or five features per charging cycle, the kind of summary a low-power sensor node can send once per cycle. From those features it estimates the state of health (SOH), remaining useful life (RUL), and state of charge (SOC) of lithium-ion cells. Five models (ridge regression, random forest, tuned XGBoost, LSTM, and a CNN-LSTM) are compared on four NASA cells and 124 lithium iron phosphate (LFP) cells, with each test cell excluded from fitting and tuning. RUL prediction intervals are calibrated with conformal bands, tolerance to sensor faults is tested with feature noise and glitches, and a replay dashboard presents the estimates. The evaluation uses retrospective preprocessing and does not demonstrate a hardware or closed-loop deployment.
 
 ## Repository layout
 
